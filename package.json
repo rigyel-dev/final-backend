@@ -2,12 +2,11 @@
   "name": "to-do-backend",
   "version": "1.0.0",
   "main": "dist/server.js",
- "scripts": {
+  "scripts": {
     "build": "tsc",
     "start": "node dist/server.js",
     "dev": "nodemon --watch src --ext ts --ignore dist --exec ts-node src/server.ts"
   },
- 
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
